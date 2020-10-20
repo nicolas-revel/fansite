@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="fansite.css" />
+    <link rel="shortcut icon" href="" />
+    <title>Contact - Marioverse.com</title>
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="img/logo.PNG" alt="logo" />
+      <nav>
+        <ul>
+          <li><a href="fansite1.html">Actualités</a></li>
+          <li><a href="fansite2.html">Histoire</a></li>
+          <li><a href="fansite3.html" target="blank_">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Nous contacter</h1>
+      <p>
+        Tu as une question à nous poser ? Une suggestion ? Un bug à report ?
+        N'hésite pas à nous contacter via ce formulaire de contact.
+      </p>
+      <form action="fansite.html">
+        <div class="input_group">
+          <label for="username">Nom :</label>
+          <input type="text" name="nom_utilisateur" id="username" />
+        </div>
+        <div class="input_group">
+          <label for="userfirstname">Prénom :</label>
+          <input type="text" name="prenom_utilisateur" id="userfirstname" />
+        </div>
+        <div class="input_group">
+          <label for="theme">Thème</label>
+          <select name="theme" id="theme">
+            <option value="question">Renseignements</option>
+            <option value="bug">Signaler un bug</option>
+            <option value="suggestion">Suggérer un contenu</option>
+            <option value="candidate">Candidater</option>
+          </select>
+        </div>
+        <div class="input_group">
+          <label for="objet">Objet :</label>
+          <input type="text" name="objet" id="objet" />
+        </div>
+        <div class="input_group">
+          <label for="message">Votre message :</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
