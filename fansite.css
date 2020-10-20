@@ -13,30 +13,66 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #f03838;
-  font-family: "Press Start 2P", cursive;
-  height: 90px;
-  font-size: 20px;
+  background-color: #ff6247;
+  border-bottom: 5px solid #a82d2d;
+  height: 80px;
   width: 100%;
 }
 
 header #logo {
-  height: 80px;
+  height: 70px;
+  margin: 0px 50px;
+}
+
+header nav {
+  width: 50%;
+  margin: 60px;
 }
 
 header ul {
   list-style-type: none;
-  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   padding: 0;
 }
 
-header a,
-li {
-  display: inline;
-  text-align: right;
+header li {
+  background-color: #ff8826f8;
+  border: 3px solid #f03838;
+  border-radius: 5px;
+  font-size: 30px;
+  padding: 5px 15px;
+}
+
+.bounce-4:hover {
+  animation-name: bounce-4;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+
+@keyframes bounce-4 {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.05, 0.95) translateY(0);
+  }
+  30% {
+    transform: scale(0.95, 1.05) translateY(-20px);
+  }
+  50% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
+header a {
   text-decoration: none;
-  color: #ffffff;
-  margin-right: 15px;
+  color: #2b2b2b;
 }
 
 /* Fin de la mise en forme du header */
@@ -120,7 +156,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   background-color: #ff7057;
-  border-top: 4px solid #f03838;
+  border-top: 4px solid #a82d2d;
   width: 100%;
 }
 
