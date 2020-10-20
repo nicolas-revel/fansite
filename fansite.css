@@ -83,7 +83,7 @@ header a {
   height: 100vh;
 }
 
-#accueil {
+#main_accueil {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -95,14 +95,14 @@ header a {
   height: 100%;
 }
 
-#accueil #logoaccueil {
+#main_accueil #logoaccueil {
   align-self: flex-start;
   margin: 40px;
   margin-bottom: 10px;
   width: 550px;
 }
 
-#accueil #slogan {
+#main_accueil #slogan {
   font-size: 45px;
   line-height: 1.2em;
   color: #2b2b2b;
@@ -113,7 +113,7 @@ header a {
   background-color: #ff9b28fa;
 }
 
-#accueil #tiroir_liens {
+#main_accueil #tiroir_liens {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -122,7 +122,7 @@ header a {
   margin-bottom: 50px;
 }
 
-#accueil .container_nav {
+#main_accueil .container_nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -134,12 +134,12 @@ header a {
   background-color: #ff9b28fa;
 }
 
-#accueil .container_nav img {
+#main_accueil .container_nav img {
   height: 130px;
 }
 
-#accueil .container_nav p,
-#accueil .container_nav a {
+#main_accueil .container_nav p,
+#main_accueil .container_nav a {
   font-size: 45px;
   text-decoration: none;
   color: #2b2b2b;
@@ -147,6 +147,137 @@ header a {
 }
 
 /* Fin de la mise en forme de la page d'accueil */
+
+/* Mise en forme de Actus */
+
+#body_actus {
+  background-image: url(img/actus/backgroundactus.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#main_actus {
+  margin: 30px;
+  padding: 20px;
+  border-radius: 30px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffffd8;
+}
+
+#main_actus h1 {
+  align-self: flex-start;
+  margin-left: 70px;
+  font-size: 40px;
+  color: #000a91;
+}
+
+#main_actus section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+
+#main_actus section h2 {
+  align-self: flex-start;
+  margin-left: 80px;
+  font-size: 30px;
+  color: #222ed4;
+}
+
+#main_actus .article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 3px solid #2d54a8;
+  border-radius: 20px;
+}
+
+#main_actus .article img {
+  height: 200px;
+}
+
+#main_actus .article p {
+  width: 60%;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+#main_actus form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#main_actus form h3 {
+  font-size: 30px;
+  color: #222caf;
+  margin: 10px;
+}
+
+#main_actus form p {
+  font-size: 25px;
+}
+
+#main_actus form #inputmail {
+  border: 2px solid #353a7e;
+  background-color: #6f88c2;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+
+#main_actus form #inputmail .input_label {
+  font-family: Gravity;
+  background-color: transparent;
+  padding: 3px;
+  margin: 4px;
+  border-radius: 5px;
+  color: #2d327c;
+}
+
+#main_actus form #inputmail .input_field {
+  font-family: Gravity;
+  font-size: 16px;
+  background-color: transparent;
+  padding: 3px;
+  margin: 4px;
+  border-radius: 5px;
+  border: none;
+  height: 20px;
+  flex-grow: 1;
+}
+
+#main_actus form #inputmail .input_field:focus {
+  outline: none;
+}
+
+#main_actus form #envoyer {
+  height: 50px;
+  width: 160px;
+  font-family: Gravity;
+  font-size: 20px;
+  background-color: #6f88c2;
+  border: 3px solid #2d327c;
+  border-radius: 6px;
+  margin: 30px;
+}
+
+/* Fin de la mise en forme de Actus */
 
 /* Mise en forme du footer */
 
@@ -172,3 +303,5 @@ footer p {
   font-size: 20px;
   color: #2b2b2b;
 }
+
+/* Fin de la mise en forme du footer */

@@ -6,46 +6,48 @@
     <link rel="shortcut icon" href="" />
     <title>Actualités - Marioverse.com</title>
   </head>
-  <body>
+  <body id="body_actus">
     <header>
       <a href="fansite.html"
         ><img id="logo" src="img/actus/logosite.PNG" alt="logo"
       /></a>
       <nav>
         <ul>
-          <li class="bounce-4"><a href="fansite2.html">Histoire</a></li>
           <li class="bounce-4"><a href="fansite1.html">Actualités</a></li>
+          <li class="bounce-4"><a href="fansite2.html">Histoire</a></li>
           <li class="bounce-4">
             <a href="fansite3.html" target="blank_">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
-    <main>
+    <main id="main_actus">
       <h1>Les actualités</h1>
       <section>
         <h2>
           Super Mario 3D Collection sur Nintendo Switch : présentation
           imminente, mais sortie retardée
         </h2>
-        <div>
-          <img src="" alt="" />
+        <div class="article">
+          <img
+            src="img/actus/actusmario35thanniversary.jpg"
+            alt="Photos des 35 ans de Mario"
+          />
           <p>
             Les fans s’impatientent, alors que le mois de septembre 2020 fête
             les 35 ans de Mario. Selon nos confrères de WCCFTech, Nintendo
             serait en passe de dévoiler sa fameuse compilation Super Mario 3D
             sur Nintendo Switch. Big N officialiserait le jeu cette semaine,
             voir la semaine prochaine au plus tard à l’occasion de la
-            célébration du 35e anniversaire de la franchise Mario. Pour autant,
-            la compilation ne devrait pas sortir dans la foulée mais vers les
-            fêtes de fin d’année. On ne sait cependant pas encore quels seront
-            les titres proposés par la firme de Kyoto, même si nous nous faisons
-            déjà une idée.
+            célébration du 35e anniversaire de la franchise Mario.
           </p>
         </div>
         <h2>Android : Super Mario 64 est jouable sans émulateur Nintendo 64</h2>
-        <div>
-          <img src="" alt="" />
+        <div class="article">
+          <img
+            src="img/actus/articlemario64.jpg"
+            alt="Photos de Mario 64 sur Android"
+          />
           <p>
             Vous êtes probablement en train de profiter de Super Mario 3D
             All-Stars en haute définition sur votre Nintendo Switch, la
@@ -60,8 +62,8 @@
           Mario Kart Tour est disponible sur Android et iOS : vous pouvez le
           télécharger maintenant
         </h2>
-        <div>
-          <img src="" alt="" />
+        <div class="article">
+          <img src="img/actus/actusmariokart.jpg" alt="Photos de Mariokart" />
           <p>
             L’attente a été longue mais elle est désormais terminée. Mario Kart
             Tour est disponible au téléchargement sur le Play Store et l’App
@@ -74,12 +76,20 @@
       <form action="fansite1.html">
         <h3>Vous souhaitez être informé des dernières actualités ?</h3>
         <p>Inscrivez vous à notre newsletter !</p>
-        <div class="input_group">
-          <label for="input_mail">Votre mail :</label>
-          <input type="email" name="mailutilisateur" id="input_mail" />
+        <div id="inputmail" class="input_group">
+          <label for="user_mail" class="input_label">Votre mail :</label>
+          <input
+            type="email"
+            name="mail_utilisateur"
+            id="user_mail"
+            class="input_field"
+            required
+            spellcheck="true"
+            placeholder="example@mail.com"
+          />
         </div>
-        <div class="input_group">
-          <input type="submit" value="Envoyer" />
+        <div>
+          <input type="submit" value="Envoyer" id="envoyer" />
         </div>
       </form>
     </main>
