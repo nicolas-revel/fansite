@@ -26,7 +26,7 @@ header #logo {
 }
 
 header nav {
-  width: 50%;
+  width: 65%;
   margin: 60px;
 }
 
@@ -43,7 +43,7 @@ header li {
   background-color: #ff8826f8;
   border: 3px solid #f03838;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 15px;
   padding: 15px 15px;
 }
 
@@ -478,7 +478,7 @@ footer li {
   background-color: #ff8826f8;
   border: 3px solid #f03838;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 15px;
   padding: 15px 15px;
 }
 
