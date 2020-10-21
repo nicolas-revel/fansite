@@ -17,6 +17,7 @@ header {
   border-bottom: 5px solid #a82d2d;
   height: 80px;
   width: 100%;
+  font-family: "Press Start 2P", cursive;
 }
 
 header #logo {
@@ -41,9 +42,9 @@ header ul {
 header li {
   background-color: #ff8826f8;
   border: 3px solid #f03838;
-  border-radius: 5px;
-  font-size: 30px;
-  padding: 5px 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 15px 15px;
 }
 
 .bounce-4:hover {
@@ -103,7 +104,8 @@ header a {
 }
 
 #main_accueil #slogan {
-  font-size: 45px;
+  font-family: "Ubuntu Mono", cursive;
+  font-size: 40px;
   line-height: 1.2em;
   color: #2b2b2b;
   width: 85%;
@@ -140,10 +142,11 @@ header a {
 
 #main_accueil .container_nav p,
 #main_accueil .container_nav a {
-  font-size: 45px;
+  font-size: 20px;
   text-decoration: none;
   color: #2b2b2b;
   text-align: center;
+  font-family: "Press Start 2P", cursive;
 }
 
 /* Fin de la mise en forme de la page d'accueil */
@@ -168,7 +171,8 @@ header a {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffffd8;
+  background-color: #ffffffe7;
+  font-family: "Ubuntu Mono", cursive;
 }
 
 #main_actus h1 {
@@ -176,6 +180,7 @@ header a {
   margin-left: 70px;
   font-size: 40px;
   color: #000a91;
+  font-family: "Press Start 2P", cursive;
 }
 
 #main_actus section {
@@ -211,6 +216,7 @@ header a {
   width: 60%;
   font-size: 20px;
   line-height: 1.5em;
+  color: #2d54a8;
 }
 
 #main_actus form {
@@ -219,6 +225,7 @@ header a {
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
+  font-family: "Ubuntu Mono", cursive;
 }
 
 #main_actus form h3 {
@@ -229,11 +236,12 @@ header a {
 
 #main_actus form p {
   font-size: 25px;
+  color: #2d54a8;
 }
 
 #main_actus form #inputmail {
   border: 2px solid #353a7e;
-  background-color: #6f88c2;
+  background-color: #93a6d1;
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
@@ -248,6 +256,7 @@ header a {
   margin: 4px;
   border-radius: 5px;
   color: #2d327c;
+  font-family: "Ubuntu Mono", cursive;
 }
 
 #main_actus form #inputmail .input_field {
@@ -260,6 +269,8 @@ header a {
   border: none;
   height: 20px;
   flex-grow: 1;
+  font-family: "Ubuntu Mono", cursive;
+  color: #2d327c;
 }
 
 #main_actus form #inputmail .input_field:focus {
@@ -271,10 +282,11 @@ header a {
   width: 160px;
   font-family: Gravity;
   font-size: 20px;
-  background-color: #6f88c2;
+  background-color: #93a6d1;
   border: 3px solid #2d327c;
   border-radius: 6px;
   margin: 30px;
+  font-family: "Ubuntu Mono", cursive;
 }
 
 /* Fin de la mise en forme de Actus */
@@ -300,16 +312,21 @@ header a {
   background-color: #6f88c2f6;
   margin: 40px 0;
   border-radius: 30px;
+  font-family: "Ubuntu Mono", cursive;
 }
 
 #main_contact h1 {
-  font-size: 50px;
+  font-size: 40px;
+  color: #1d215e;
+  font-family: "Press Start 2P", cursive;
 }
 
 #main_contact p {
   font-size: 30px;
-  width: 70%;
+  width: 90%;
   text-align: center;
+  margin-bottom: 60px;
+  color: #2d54a8;
 }
 
 #main_contact form {
@@ -337,6 +354,16 @@ header a {
   margin-top: 30px;
 }
 
+#main_contact form #theme {
+  height: 25px;
+  color: #353a7e;
+}
+
+#main_contact form #theme:focus {
+  background-color: #6f88c2;
+  color: #353a7e;
+}
+
 #main_contact form .input_group {
   border: 2px solid #353a7e;
   background-color: #6f88c2;
@@ -348,7 +375,7 @@ header a {
 }
 
 #main_contact form .input_group .input_label {
-  font-family: Gravity;
+  font-family: "Ubuntu Mono", cursive;
   background-color: transparent;
   padding: 3px;
   margin: 4px;
@@ -357,7 +384,7 @@ header a {
 }
 
 #main_contact form .input_group .input_field {
-  font-family: Gravity;
+  font-family: "Ubuntu Mono", cursive;
   font-size: 16px;
   background-color: transparent;
   padding: 3px;
@@ -366,6 +393,7 @@ header a {
   border: none;
   height: 20px;
   flex-grow: 1;
+  color: #353a7e;
 }
 
 #main_contact form .input_group .input_field:focus {
@@ -392,7 +420,10 @@ header a {
   font-size: 18px;
   background: transparent;
   border: 2px solid #2d327c;
+  padding: 10px;
   border-radius: 20px;
+  resize: none;
+  color: #353a7e;
 }
 
 #main_contact form #message:focus {
@@ -402,12 +433,13 @@ header a {
 #main_contact form #envoyer {
   height: 50px;
   width: 160px;
-  font-family: Gravity;
+  font-family: "Ubuntu Mono", cursive;
   font-size: 20px;
   background-color: #6f88c2;
   border: 3px solid #2d327c;
   border-radius: 6px;
   margin: 30px;
+  color: #353a7e;
 }
 
 /* Fin de la mise en forme de Contact */
@@ -422,18 +454,19 @@ footer {
   background-color: #ff7057;
   border-top: 4px solid #a82d2d;
   width: 100%;
+  font-family: "Press Start 2P", cursive;
 }
 
 footer a {
   margin: 10px 40px;
-  font-size: 20px;
+  font-size: 15px;
   text-decoration: none;
   color: #2b2b2b;
 }
 
 footer p {
   margin: 10px 40px;
-  font-size: 20px;
+  font-size: 15px;
   color: #2b2b2b;
 }
 
