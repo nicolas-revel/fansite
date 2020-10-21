@@ -279,6 +279,139 @@ header a {
 
 /* Fin de la mise en forme de Actus */
 
+/* Mise en forme de Contact */
+
+#body_contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-image: url(img/contact/backgroundactus.jpg);
+}
+
+#main_contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+  background-color: #6f88c2f6;
+  margin: 40px 0;
+  border-radius: 30px;
+}
+
+#main_contact h1 {
+  font-size: 50px;
+}
+
+#main_contact p {
+  font-size: 30px;
+  width: 70%;
+  text-align: center;
+}
+
+#main_contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
+}
+
+#main_contact form #userid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#main_contact form #theme_objet {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+#main_contact form .input_group {
+  border: 2px solid #353a7e;
+  background-color: #6f88c2;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 330px;
+}
+
+#main_contact form .input_group .input_label {
+  font-family: Gravity;
+  background-color: transparent;
+  padding: 3px;
+  margin: 4px;
+  border-radius: 5px;
+  color: #2d327c;
+}
+
+#main_contact form .input_group .input_field {
+  font-family: Gravity;
+  font-size: 16px;
+  background-color: transparent;
+  padding: 3px;
+  margin: 4px;
+  border-radius: 5px;
+  border: none;
+  height: 20px;
+  flex-grow: 1;
+}
+
+#main_contact form .input_group .input_field:focus {
+  outline: none;
+}
+
+#main_contact form #votre_message {
+  background-color: #6f88c2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin-top: 40px;
+}
+
+#main_contact form #label_message {
+  align-self: flex-start;
+  margin-bottom: 20px;
+  color: #2d327c;
+}
+
+#main_contact form #message {
+  font-size: 18px;
+  background: transparent;
+  border: 2px solid #2d327c;
+  border-radius: 20px;
+}
+
+#main_contact form #message:focus {
+  outline: none;
+}
+
+#main_contact form #envoyer {
+  height: 50px;
+  width: 160px;
+  font-family: Gravity;
+  font-size: 20px;
+  background-color: #6f88c2;
+  border: 3px solid #2d327c;
+  border-radius: 6px;
+  margin: 30px;
+}
+
+/* Fin de la mise en forme de Contact */
+
 /* Mise en forme du footer */
 
 footer {
@@ -304,4 +437,4 @@ footer p {
   color: #2b2b2b;
 }
 
-/* Fin de la mise en forme du footer */
+/* Fin de la mise en forme du footer */ ;
