@@ -47,13 +47,13 @@ header li {
   padding: 15px 15px;
 }
 
-.bounce-4:hover {
-  animation-name: bounce-4;
+.bounce-navbox:hover {
+  animation-name: bounce-navbox;
   animation-duration: 1s;
   animation-timing-function: ease;
 }
 
-@keyframes bounce-4 {
+@keyframes bounce-navbox {
   0% {
     transform: scale(1, 1) translateY(0);
   }
@@ -449,25 +449,42 @@ header a {
 footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  background-color: #ff7057;
-  border-top: 4px solid #a82d2d;
+  background-color: #ff6247;
+  border-top: 5px solid #a82d2d;
+  height: 90px;
   width: 100%;
   font-family: "Press Start 2P", cursive;
 }
 
+/* Fin de la mise en forme du footer */
+
+footer nav {
+  width: 90%;
+  margin: 0px 0px;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+footer li {
+  background-color: #ff8826f8;
+  border: 3px solid #f03838;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 15px 15px;
+}
+
 footer a {
-  margin: 10px 40px;
-  font-size: 15px;
   text-decoration: none;
   color: #2b2b2b;
 }
 
-footer p {
-  margin: 10px 40px;
-  font-size: 15px;
-  color: #2b2b2b;
-}
-
-/* Fin de la mise en forme du footer */ ;
+/* Fin de la mise en forme du footer */
