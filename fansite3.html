@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="fansite.css" />
     <link rel="shortcut icon" href="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu+Mono&display=swap"
+      rel="stylesheet"
+    />
     <title>Contact - Marioverse.com</title>
   </head>
   <body id="body_contact">
@@ -15,9 +19,7 @@
         <ul>
           <li class="bounce-4"><a href="fansite1.html">Actualités</a></li>
           <li class="bounce-4"><a href="fansite2.html">Histoire</a></li>
-          <li class="bounce-4">
-            <a href="fansite3.html" target="blank_">Contact</a>
-          </li>
+          <li class="bounce-4"><a href="fansite3.html">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -61,12 +63,24 @@
           </div>
           <div class="input_group">
             <label for="objet" class="input_label">Objet :</label>
-            <input type="text" name="objet" id="objet" class="input_field" />
+            <input
+              type="text"
+              name="objet"
+              id="objet"
+              class="input_field"
+              required
+            />
           </div>
         </div>
         <div id="votre_message">
           <label for="message" id="label_message">Votre message :</label>
-          <textarea name="message" id="message" cols="50" rows="8"></textarea>
+          <textarea
+            name="message"
+            id="message"
+            cols="50"
+            rows="8"
+            required
+          ></textarea>
         </div>
         <div>
           <input type="submit" value="Envoyer" id="envoyer" />
