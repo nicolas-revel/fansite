@@ -300,6 +300,8 @@ header a {
   align-items: center;
   height: 100vh;
   background-image: url(img/contact/backgroundactus.jpg);
+  background-size: cover;
+  background-repeat: repeat;
 }
 
 #main_contact {
@@ -444,6 +446,26 @@ header a {
 
 /* Fin de la mise en forme de Contact */
 
+/* Mise en forme de Liens externes */
+
+#body_liens {
+  height: 100%;
+  background-image: url(img/liens/backgroundactus.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+#main_liens {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 600px 600px;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+/* Fin de la mise en forme de Liens externes */
+
 /* Mise en forme du footer */
 
 footer {
@@ -457,8 +479,6 @@ footer {
   width: 100%;
   font-family: "Press Start 2P", cursive;
 }
-
-/* Fin de la mise en forme du footer */
 
 footer nav {
   width: 90%;
